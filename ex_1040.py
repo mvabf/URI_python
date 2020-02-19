@@ -1,5 +1,5 @@
 
-// Usando a função split, consigo extrair os valores da string e converter para ponto flutuante.
+# Usando a função split, consigo extrair os valores da string e converter para ponto flutuante.
 a, b, c, d = input().split(" ")
 nota1 = float(a)
 nota2 = float(b)
