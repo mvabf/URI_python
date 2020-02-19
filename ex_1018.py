@@ -1,0 +1,18 @@
+valor = int(input())
+
+total_notas_cem = int (valor / 100)
+total_notas_cinquenta = int((valor % 100) / 50)
+total_notas_vinte = int((valor % 100) % 50 / 20)
+total_notas_dez = int((valor % 100) % 50 % 20 / 10)
+total_notas_cinco = int((valor % 100) % 50 % 20 % 10 / 5)
+total_notas_dois = int((valor % 100) % 50 % 20 % 10 % 5 / 2)
+total_notas_um = int((valor % 100) % 50 % 20 % 10 % 5 % 2 / 1)
+
+print(valor)
+print(total_notas_cem, "nota(s) de R$ 100,00")
+print(total_notas_cinquenta, "nota(s) de R$ 50,00")
+print(total_notas_vinte ,"nota(s) de R$ 20,00")
+print(total_notas_dez ,"nota(s) de R$ 10,00")
+print(total_notas_cinco, "nota(s) de R$ 5,00")
+print(total_notas_dois, "nota(s) de R$ 2,00")
+print(total_notas_um, "nota(s) de R$ 1,00")
