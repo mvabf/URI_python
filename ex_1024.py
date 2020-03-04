@@ -1,7 +1,5 @@
-# ainda será refatorado
-
+# versão aceita
 n = int(input())
-list = []
 pos = 0
 for i in range(n):
     str = input()
@@ -20,7 +18,7 @@ for i in range(n):
     reverseString = str2[::-1]
     # pegar o index da metade da string
     halfString = int(len(str) / 2)
-    
+
     # laço que faz o terceiro passo
     for i in reverseString:
         aux = ord(i)
@@ -31,9 +29,4 @@ for i in range(n):
             halfString += 1
         else:
             str3 += chr(aux)
-    # insere as palavras criptografadas na lista
-    list.insert(pos,str3)
-    pos +=1
-# imprime a lista no formato solicitado
-for i in list:
-    print(i)
+    print(str3)
